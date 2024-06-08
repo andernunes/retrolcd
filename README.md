@@ -1,2 +1,5 @@
 # Retroled
-CSS reto style 7-segments led.
+CSS rerto style 7-segments led.
+
+
+Just copy css
