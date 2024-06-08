@@ -1,0 +1,104 @@
+body{
+  height: 100vh;
+  background-color: #222233;
+  color: #cfcfcf;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-family: 'Digital-7 Mono', sans-serif;
+}
+
+.led-blue {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(0,0,128);
+  text-align:center;
+  line-height: 50px;
+  font-size:32pt;
+  border-top: 3px solid #000000cc;
+  border-left: 3px solid #000000cc;
+  border-bottom: 1px solid #cfcfcf33;
+  border-right: 1px solid #cfcfcf33;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #000000ee inset;
+  text-shadow: 0px 0px 20px #00ffffcc;
+  margin: 5px;
+  color: #00ffffcc;
+}
+
+
+.led-green {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(0,64,0);
+  text-align:center;
+  line-height: 50px;
+  font-size:32pt;
+  border-top: 3px solid #000000ee;
+  border-left: 3px solid #000000ee;
+  border-bottom: 1px solid #cfcfcf33;
+  border-right: 1px solid #cfcfcf33;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #000000ee inset;
+  text-shadow: 0px 0px 20px #ffff00cc;
+  margin: 5px;
+  color: #00ff77cc;
+}
+
+
+.led-red {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(128,0,0);
+  text-align:center;
+  line-height: 50px;
+  font-size:32pt;
+  border-top: 3px solid #000000ee;
+  border-left: 3px solid #000000ee;
+  border-bottom: 1px solid #cfcfcf33;
+  border-right: 1px solid #cfcfcf33;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #000000ee inset;
+  text-shadow: 0px 0px 20px #ffff00cc;
+  margin: 5px;
+  color: #ff9999cc;
+}
+
+.led-old {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(127,138,70);
+  text-align:center;
+  line-height: 50px;
+  font-size: 40px;
+  border-top: 3px solid #000000ce;
+  border-left: 3px solid #000000ce;
+  border-bottom: 1px solid #cfcfcf33;
+  border-right: 1px solid #cfcfcf33;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #000000ee inset;
+  text-shadow: 0px 0px 20px #ffff0022;
+  margin: 5px;
+  color: #000000aa;
+  
+}
+
+.led-off {
+  width: 180px;
+  height: 50px;
+  background-color: rgb(20,20,20);
+  text-align:center;
+  line-height: 50px;
+  font-size: 40px;
+  border-top: 3px solid #000000ce;
+  border-left: 3px solid #000000ce;
+  border-bottom: 1px solid #cfcfcf33;
+  border-right: 1px solid #cfcfcf33;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px #000000ee inset;
+  text-shadow: 0px 0px 20px #55555544;
+  margin: 5px;
+  color: #000000aa;
+  overflow: hidden;
+}
